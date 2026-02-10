@@ -1,7 +1,7 @@
 ---
 - name: variable preference
-  hosts: localhost
-  connection: localhost
+  hosts: local
+  connection: local
   vars:
     NAME: "Ansible from PLAY"
   var_files:
