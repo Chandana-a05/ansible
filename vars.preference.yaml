@@ -4,7 +4,7 @@
   connection: local
   vars:
     NAME: "Ansible from PLAY"
-  var_files:
+  vars_files:
   - course_yaml
   vars_prompt:
   - name: NAME
